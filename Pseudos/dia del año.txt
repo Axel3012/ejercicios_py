@@ -1,0 +1,29 @@
+Inicio
+	dias = [31,28,31,30,31,30,31,31,30,31,30,31]
+
+	dia = <pedir dia>
+	mes = <pedir mes>
+	año = <pedir año>
+
+		if<es_bisiesto(año)>
+			dias[1] = 29
+	
+	compara_mes = 0
+	contador_dias = 0
+	
+		while compara_mes < mes-1
+			contador_dias = contador_dias + dias[compara_mes]
+			compara_mes = compara_ mes + 1
+			 
+	contador_dias = contador_dias + dia
+
+	<Mostrar contador_dias>
+
+<es_bisiesto>
+	if year % 4 != 0 
+		retorna false
+
+	if year % 100 = 0 and year % 400 != 0
+		retorna false
+
+	retorna true

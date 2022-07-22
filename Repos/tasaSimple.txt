@@ -1,0 +1,13 @@
+inversion = 'Cantidad a invertir'
+años = 'tiempo de inversion en años'
+porcentaje = 'tasa de interes'
+tasa = <calculaTasa>(porcentaje)
+
+A = inversion * (1 + tasa * años)
+
+print(tras años años de inversion al tasa%, su cantidad debe ser T
+
+<calculaTasa>(porcentaje)
+
+tasa = porcentaje/100
+	return tasa

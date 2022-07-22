@@ -1,0 +1,3 @@
+import listaAscii
+
+listaAscii.lista()

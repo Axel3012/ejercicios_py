@@ -1,0 +1,49 @@
+Psuedo codigo
+
+Inicio
+	<Obtener datos de entrada (Sueldo, situacion, hijos)>
+	exencion = <Obtener Execncion>
+	sueldo_a_retener = sueldo - exencion
+	
+	Porcentaje =  <Obtener retencion>
+	monto_anual = sueldo_a_retener * porcentaje / 100
+	
+	<Mostrar Resultados>
+
+	<Obtener Exencion (S, NH)>
+		if S=1
+			if NH = 0
+				devuelve 0
+			else if NH = 1
+				devuelve 15947
+			else 
+				devuelve 17100
+		if S=2
+			if NH = 0
+				devuelve 15546
+			else if NH = 1
+				devuelve 16481
+			else 
+				devuelve 17634
+		if S=3
+			if NH = 0
+				devuelve 1400
+			else if NH = 1
+				devuelve 14516
+			else 
+				devuelve 15063
+
+
+		<Obtener retencion ( SAR)>
+			if SAR <= 12450
+				devuelve 19
+			else if SAR <=20200
+				devuelve 24	
+			else if SAR <=35200
+				devuelve 30
+			else if SAR <=60000
+				devuelve 37
+			else if SAR <=300000
+				devuelve 45
+			else 
+				devuelve 47	

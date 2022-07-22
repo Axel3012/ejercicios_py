@@ -1,0 +1,28 @@
+monedas = {}
+
+Conversion a euros? o agregar tipo de cambio?
+
+choice =  C / A
+
+if choice = A
+<Agregar pais y valor al diccionario>
+
+pais = Pais de moneda de cambio: 
+valor = tasa de cambio a euros:
+
+else: 
+<Conversor>
+
+tipo de cambio = pais de moneda de cambio: (llama al valor de la clave ingresada) 
+cifra = cantidad :
+
+x = tipo de cambio * cifra
+
+serian x euros 
+
+
+
+
+
+
+
